@@ -1,2 +1,3 @@
 #!/bin/bash
-la-amvp
+la-1af | lc_all=c sort -df | sed -e 's/$/,/' | tr -d '\n' && echo
+
